@@ -62,7 +62,7 @@ const serverlessConfiguration: AWS = {
         events: [
           {
             schedule: {
-              rate: 'cron(0 12 * * * )',
+              rate: 'cron(0 12 * * ? *)',
               enabled: true,
               name: 'CovidNotificationStateMachineScheduler'
             }
