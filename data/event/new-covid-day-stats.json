@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "data": {
+    "newConfirmed": 14908,
+    "newDeaths": 638,
+    "newRecovered": 18120,
+    "overallActive": 361217
+  }
+}
